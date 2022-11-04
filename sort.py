@@ -8,7 +8,7 @@ lines2 = []
 for line in lines:
     line = line.upper()
     line = line.replace("\n", "")
-    lines2.append(line)
+    lines2.append(line.replace(" ", ""))
 
 lines = sorted(lines2)
 
